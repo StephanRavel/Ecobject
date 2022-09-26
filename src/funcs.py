@@ -24,8 +24,12 @@ def get_all_products(soup):
         object ['co2_footprint'] = row.find('div', attrs = {'class':'kmtext'}).text
         object ['units'] = row.find('div', attrs = {'class':'kmtextfigure'}).text
         products.update(object)
+    print(products)
     return products
 
+
+soup = get_soup('https://www.co2everything.com/a-z')
+products = get_all_products(soup)
  
 
 
