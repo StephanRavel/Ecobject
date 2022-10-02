@@ -1,5 +1,7 @@
 import requests
 import requests
+import json 
+import csv
 from bs4 import BeautifulSoup
 
 def get_soup(URL):
@@ -12,24 +14,49 @@ def get_soup(URL):
     return soup 
 
 def get_all_products(soup):
-    products={}  # a liste des produits ou objets 
+    products=[]  # a liste des produits ou objets 
     # chercher toutes les balises de type 'a' avec l'attribut spécifié    
     table = soup.findAll('a', attrs = {'class':'graphdiv w-inline-block'}) 
-    nb_objects = len(table)
+    # nb_objects = len(table)
+    i=0
     # pour chaque ligne de table, on stocke les informations qui nous intéressent 
-    for (row,i) in (table, range(1, nb_objects + 1)):
+    for row in table:
         object = {}
-        object ['id'] = i
+        i+=1
+        object['id'] = i
         object ['product_name'] = row.find('div', attrs = {'class':'graphitemname'}).text
         object ['co2_footprint'] = row.find('div', attrs = {'class':'kmtext'}).text
         object ['units'] = row.find('div', attrs = {'class':'kmtextfigure'}).text
-        products.update(object)
-    print(products)
+        # products['id'] = i
+        products.append(object)
     return products
 
+def write_products_json(products):
+    with open('./data/products.json', 'w', encoding='utf-8') as f:
+        json.dump(products, f, ensure_ascii=False, indent=4)
 
-soup = get_soup('https://www.co2everything.com/a-z')
-products = get_all_products(soup)
+def write_products_csv(products):
+    # get all headers
+    prod_keys = products[0].keys()
+    headers=[]
+    for header in prod_keys:
+        headers.append(header)
+
+    # create products csv files 
+    with open('./data/products.csv', 'w',newline='', encoding='UTF8') as f:
+        writer = csv.writer(f)
+
+        #write headers: 
+        writer.writerow(headers)
+
+        #write data
+        for prod_line in products:
+            row=[]
+            for prod in prod_line.values():
+                row.append(prod)
+            writer.writerow(row)
+
+
  
 
 

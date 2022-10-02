@@ -1,0 +1,476 @@
+[
+    {
+        "id": 1,
+        "product_name": "Apple MacBook Pro 16",
+        "co2_footprint": "394",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 2,
+        "product_name": "Apple iPad Pro",
+        "co2_footprint": "119",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 3,
+        "product_name": "Apple iPhone",
+        "co2_footprint": "72",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 4,
+        "product_name": "Coal Energy",
+        "co2_footprint": "25",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 5,
+        "product_name": "Plastic Bag (Strong Reusable)",
+        "co2_footprint": "21.51",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 6,
+        "product_name": "Beef",
+        "co2_footprint": "15.5",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 7,
+        "product_name": "Natural Gas Energy",
+        "co2_footprint": "15",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 8,
+        "product_name": "Wool",
+        "co2_footprint": "13.89",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 9,
+        "product_name": "Acrylic Fabric",
+        "co2_footprint": "11.53",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 10,
+        "product_name": "Cotton",
+        "co2_footprint": "8.3",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 11,
+        "product_name": "Silk",
+        "co2_footprint": "7.63",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 12,
+        "product_name": "Nylon",
+        "co2_footprint": "7.31",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 13,
+        "product_name": "Plastic Bag (Basic Reusable)",
+        "co2_footprint": "6.92",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 14,
+        "product_name": "Polyester",
+        "co2_footprint": "6.4",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 15,
+        "product_name": "Lamb",
+        "co2_footprint": "5.84",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 16,
+        "product_name": "Paper Bag",
+        "co2_footprint": "5.52",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 17,
+        "product_name": "Linen",
+        "co2_footprint": "4.5",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 18,
+        "product_name": "Freight | Air",
+        "co2_footprint": "4.42",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 19,
+        "product_name": "Prawns",
+        "co2_footprint": "4.07",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 20,
+        "product_name": "BMW X5 M50i 2020",
+        "co2_footprint": "3.72",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 21,
+        "product_name": "Ford F-150 AWD 2020",
+        "co2_footprint": "3.72",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 22,
+        "product_name": "Land Rover Range Rover 2020",
+        "co2_footprint": "3.72",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 23,
+        "product_name": "Jeep Wrangler 4WD 2020",
+        "co2_footprint": "3.35",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 24,
+        "product_name": "Toyota Tacoma 4WD 2020",
+        "co2_footprint": "3.35",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 25,
+        "product_name": "Cheese",
+        "co2_footprint": "2.79",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 26,
+        "product_name": "Toyota Camry 2020",
+        "co2_footprint": "2.58",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 27,
+        "product_name": "Pork",
+        "co2_footprint": "2.4",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 28,
+        "product_name": "Washing Load with Dryer",
+        "co2_footprint": "2.4",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 29,
+        "product_name": "Toyota RAV4 AWD 2020",
+        "co2_footprint": "2.31",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 30,
+        "product_name": "VW Golf 2020",
+        "co2_footprint": "2.09",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 31,
+        "product_name": "Toyota Corolla 2020",
+        "co2_footprint": "1.97",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 32,
+        "product_name": "Chicken",
+        "co2_footprint": "1.82",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 33,
+        "product_name": "Plastic Bag (Single Use)",
+        "co2_footprint": "1.58",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 34,
+        "product_name": "Porsche Taycan Turbo S",
+        "co2_footprint": "1.55",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 35,
+        "product_name": "Plane Travel",
+        "co2_footprint": "1.46",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 36,
+        "product_name": "Solar Energy",
+        "co2_footprint": "1.44",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 37,
+        "product_name": "Fish",
+        "co2_footprint": "1.34",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 38,
+        "product_name": "Geothermal Energy",
+        "co2_footprint": "1.14",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 39,
+        "product_name": "Motorbike",
+        "co2_footprint": "1.13",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 40,
+        "product_name": "Bus Travel",
+        "co2_footprint": "1.03",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 41,
+        "product_name": "Nissan Leaf 2020",
+        "co2_footprint": "0.99",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 42,
+        "product_name": "Tesla Model X 2020",
+        "co2_footprint": "0.99",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 43,
+        "product_name": "Dark Chocolate Bar",
+        "co2_footprint": "0.95",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 44,
+        "product_name": "BMW i3 2020",
+        "co2_footprint": "0.93",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 45,
+        "product_name": "Tesla Model S 2020",
+        "co2_footprint": "0.93",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 46,
+        "product_name": "Hyundai Kona Electric 2020",
+        "co2_footprint": "0.87",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 47,
+        "product_name": "Tesla Model Y AWD 2020",
+        "co2_footprint": "0.87",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 48,
+        "product_name": "Tesla Model 3 2020",
+        "co2_footprint": "0.81",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 49,
+        "product_name": "Milk (Cow)",
+        "co2_footprint": "0.8",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 50,
+        "product_name": "Hydroelectric Energy",
+        "co2_footprint": "0.72",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 51,
+        "product_name": "Washing Load without Dryer",
+        "co2_footprint": "0.7",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 52,
+        "product_name": "Eggs (2)",
+        "co2_footprint": "0.53",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 53,
+        "product_name": "Coffee",
+        "co2_footprint": "0.4",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 54,
+        "product_name": "Train Travel",
+        "co2_footprint": "0.37",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 55,
+        "product_name": "Nuclear Energy",
+        "co2_footprint": "0.36",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 56,
+        "product_name": "Wind Energy",
+        "co2_footprint": "0.36",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 57,
+        "product_name": "Tomato",
+        "co2_footprint": "0.32",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 58,
+        "product_name": "Rice Milk",
+        "co2_footprint": "0.3",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 59,
+        "product_name": "Pasta",
+        "co2_footprint": "0.264",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 60,
+        "product_name": "Beer",
+        "co2_footprint": "0.25",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 61,
+        "product_name": "Soy Milk",
+        "co2_footprint": "0.25",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 62,
+        "product_name": "Berries",
+        "co2_footprint": "0.22",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 63,
+        "product_name": "Oat Milk",
+        "co2_footprint": "0.22",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 64,
+        "product_name": "Freight | Road/Truck",
+        "co2_footprint": "0.21",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 65,
+        "product_name": "Almond Milk",
+        "co2_footprint": "0.18",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 66,
+        "product_name": "Coke",
+        "co2_footprint": "0.17",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 67,
+        "product_name": "Rice",
+        "co2_footprint": "0.16",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 68,
+        "product_name": "Wine",
+        "co2_footprint": "0.13",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 69,
+        "product_name": "Banana",
+        "co2_footprint": "0.11",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 70,
+        "product_name": "Tofu",
+        "co2_footprint": "0.08",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 71,
+        "product_name": "Apple",
+        "co2_footprint": "0.06",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 72,
+        "product_name": "Brassicas (Cabbage, Kale etc)",
+        "co2_footprint": "0.05",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 73,
+        "product_name": "Freight | Rail",
+        "co2_footprint": "0.05",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 74,
+        "product_name": "Nuts (Mixed)",
+        "co2_footprint": "0.05",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 75,
+        "product_name": "Orange",
+        "co2_footprint": "0.05",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 76,
+        "product_name": "Potatoes",
+        "co2_footprint": "0.05",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 77,
+        "product_name": "Root Vegetables (Carrot etc)",
+        "co2_footprint": "0.04",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 78,
+        "product_name": "Freight | Shipping",
+        "co2_footprint": "0.03",
+        "units": "kg CO2e"
+    },
+    {
+        "id": 79,
+        "product_name": "Bike Travel",
+        "co2_footprint": "0",
+        "units": "kg CO2e"
+    }
+]
